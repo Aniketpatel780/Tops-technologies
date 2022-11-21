@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@1,400;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background: rgb(235, 229, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: "Courgette", sans-serif;
+  color: rgb(148, 143, 139);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+li {
+  padding: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 2rem;
+  color: rgb(124, 101, 103);
+}
+
+a:hover {
+  color: rgb(181, 181, 157);
+  background: #000;
+}

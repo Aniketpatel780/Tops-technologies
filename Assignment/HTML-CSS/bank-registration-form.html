@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            width: 90vh;
+            margin: auto;
+        }
+
+        table {
+            width: 25rem;
+            background-color: rgb(225, 193, 205);
+            padding: 1rem;
+        }
+
+        fieldset {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: rgb(225, 193, 205);
+
+        }
+    </style>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>Register Yourself Here</legend>
+
+            <table>
+
+                <form action="mailto:aniketpatel780@gmail.com" method="">
+                    <tr>
+                        <td><label for="name">Name :</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date Of Birth :</label></td>
+                        <td><input type="date" name="dob" id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="male">Gender :</label></td>
+                        <td><label for="male"><input type="radio" name="gender" id="male" value="male">Male</label>
+                            <label for="female"><input type="radio" name="gender" id="female"
+                                    value="female">Female</label>
+                            <label for="other"><input type="radio" name="gender" id="other" value="other">Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td rowspan="4">I want to :</td>
+                        <td><label for="sav"><input type="checkbox" name="iwt" id="sav">Open a Savings Account</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fd"><input type="checkbox" name="iwt" id="fd">Open a Fixed Deposite
+                                Account</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dem"><input type="checkbox" name="iwt" id="dem">Open a Demant Account</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Loan"><input type="checkbox" name="iwt" id="loan">Know about Bussiness
+                                loan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><label for="mnum">Contact Info :</label></td>
+                        <td><input type="tel" name="contact" id="mnum" placeholder="Enter Your Number" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="contact" id="email" placeholder="Enter Your Email" required></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="submit"> <input type="reset"></td>
+                    </tr>
+                </form>
+
+
+
+            </table>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>

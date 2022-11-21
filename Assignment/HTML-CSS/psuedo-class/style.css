@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(68, 89, 78);
+  font-size: 3rem;
+  background: rgb(215, 199, 199);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: rgb(215, 199, 199);
+  background-color: rgb(68, 89, 78);
+}
+
+a:active {
+  color: aliceblue;
+  background: #000;
+}
+
+a:visited {
+  color: aliceblue;
+  background: #000;
+}
+
+a:focus {
+  color: rgb(215, 199, 199);
+  background-color: rgb(68, 89, 78);
+}

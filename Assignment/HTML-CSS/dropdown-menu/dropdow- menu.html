@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: black;
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: maroon;
+            margin: 0 10px;
+
+        }
+
+        ul {
+            list-style: none;
+            overflow: auto;
+
+        }
+
+        .list-item {
+            float: left;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .sub-list {
+            position: absolute;
+            display: none;
+            width: 200px;
+            margin-top: 15px;
+            margin-left: -15px;
+
+        }
+
+        div ul {
+            background-color: maroon;
+            padding: 5px 20px;
+            font-size: 15px;
+
+        }
+
+        .sl {
+            padding: 5px 0px;
+        }
+
+        .hover:hover .sub-list {
+            display: block;
+        }
+
+        .active,
+        li:hover {
+            background-color: brown;
+            color: bisque;
+        }
+
+        .sub-list-2 {
+            position: absolute;
+            display: none;
+            width: 200px;
+            margin-top: -20px;
+            margin-left: 180px;
+
+        }
+
+        .ssl {
+            margin: 1px 0px;
+            padding: 5px 0px;
+        }
+
+        .hover1:hover .sub-list-2 {
+            display: block;
+        }
+        .sub-list-3 {
+            position: absolute;
+            display: none;
+            width: 200px;
+            margin-top: -20px;
+            margin-left: 180px;
+
+        }
+        .sll {
+            margin: 1px 0px;
+            padding: 5px 0px;
+        }
+        .hover2:hover .sub-list-3 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul class="ul">
+            <li class="list-item active">Home</li>
+            <li class="list-item">Profile</li>
+            <li class="list-item">Messages</li>
+            <li class="list-item hover">Courses
+                <div class="sub-list">
+                    <ul>
+                        <li class="sl">.NET</li>
+                        <li class="sl">Java</li>
+                        <li class="sl hover1">MSOffice
+                            <div class="sub-list-2">
+                                <ul>
+                                    <li class="ssl">Word</li>
+                                    <li class="ssl hover2">Excel
+                                        <div class="sub-list-3">
+                                            <ul>
+                                                <li class="sll">Basic</li>
+                                                <li class="sll">Advance</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="ssl">PowerPoint</li>
+                                    <li class="ssl">Access</li>
+                                </ul>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
